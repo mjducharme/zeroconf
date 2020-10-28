@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{10eea913-0b4e-4c64-8cdf-4d9419f75fc0}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{94ff475e-6ca4-47bc-aedf-d6f6364eb709}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="zeroconf">
+      <UniqueIdentifier>{99caa879-5404-4284-83b7-dfc602c06850}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="zeroconf.service.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zeroconf\CriticalSection.cpp">
+      <Filter>zeroconf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zeroconf\NetService.cpp">
+      <Filter>zeroconf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zeroconf\NetServiceBrowser.cpp">
+      <Filter>zeroconf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zeroconf\NetServiceThread.cpp">
+      <Filter>zeroconf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zeroconf\Thread.cpp">
+      <Filter>zeroconf</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="zeroconf.service.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\zeroconf\CriticalSection.h">
+      <Filter>zeroconf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zeroconf\NetService.h">
+      <Filter>zeroconf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zeroconf\NetServiceBrowser.h">
+      <Filter>zeroconf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zeroconf\NetServiceThread.h">
+      <Filter>zeroconf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zeroconf\Thread.h">
+      <Filter>zeroconf</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
