@@ -158,22 +158,23 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\zeroconf\CriticalSection.cpp" />
-    <ClCompile Include="..\zeroconf\NetService.cpp" />
-    <ClCompile Include="..\zeroconf\NetServiceBrowser.cpp" />
-    <ClCompile Include="..\zeroconf\NetServiceThread.cpp" />
-    <ClCompile Include="..\zeroconf\Thread.cpp" />
+    <ClCompile Include="..\common\CriticalSection.cpp" />
+    <ClCompile Include="..\common\NetService.cpp" />
+    <ClCompile Include="..\common\NetServiceBrowser.cpp" />
+    <ClCompile Include="..\common\NetServiceThread.cpp" />
+    <ClCompile Include="..\common\Thread.cpp" />
     <ClCompile Include="zeroconf.browser.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="zeroconf.browser.def" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\zeroconf\CriticalSection.h" />
-    <ClInclude Include="..\zeroconf\NetService.h" />
-    <ClInclude Include="..\zeroconf\NetServiceBrowser.h" />
-    <ClInclude Include="..\zeroconf\NetServiceThread.h" />
-    <ClInclude Include="..\zeroconf\Thread.h" />
+    <ClInclude Include="..\common\CriticalSection.h" />
+    <ClInclude Include="..\common\NetService.h" />
+    <ClInclude Include="..\common\NetServiceBrowser.h" />
+    <ClInclude Include="..\common\NetServiceThread.h" />
+    <ClInclude Include="..\common\Thread.h" />
+    <ClInclude Include="..\common\VERSION.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

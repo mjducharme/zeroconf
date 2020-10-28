@@ -17,19 +17,19 @@
     <ClCompile Include="zeroconf.browser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\zeroconf\CriticalSection.cpp">
+    <ClCompile Include="..\common\CriticalSection.cpp">
       <Filter>zeroconf</Filter>
     </ClCompile>
-    <ClCompile Include="..\zeroconf\NetService.cpp">
+    <ClCompile Include="..\common\NetService.cpp">
       <Filter>zeroconf</Filter>
     </ClCompile>
-    <ClCompile Include="..\zeroconf\NetServiceBrowser.cpp">
+    <ClCompile Include="..\common\NetServiceBrowser.cpp">
       <Filter>zeroconf</Filter>
     </ClCompile>
-    <ClCompile Include="..\zeroconf\NetServiceThread.cpp">
+    <ClCompile Include="..\common\NetServiceThread.cpp">
       <Filter>zeroconf</Filter>
     </ClCompile>
-    <ClCompile Include="..\zeroconf\Thread.cpp">
+    <ClCompile Include="..\common\Thread.cpp">
       <Filter>zeroconf</Filter>
     </ClCompile>
   </ItemGroup>
@@ -39,19 +39,22 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\zeroconf\CriticalSection.h">
+    <ClInclude Include="..\common\CriticalSection.h">
       <Filter>zeroconf</Filter>
     </ClInclude>
-    <ClInclude Include="..\zeroconf\NetService.h">
+    <ClInclude Include="..\common\NetService.h">
       <Filter>zeroconf</Filter>
     </ClInclude>
-    <ClInclude Include="..\zeroconf\NetServiceBrowser.h">
+    <ClInclude Include="..\common\NetServiceBrowser.h">
       <Filter>zeroconf</Filter>
     </ClInclude>
-    <ClInclude Include="..\zeroconf\NetServiceThread.h">
+    <ClInclude Include="..\common\NetServiceThread.h">
       <Filter>zeroconf</Filter>
     </ClInclude>
-    <ClInclude Include="..\zeroconf\Thread.h">
+    <ClInclude Include="..\common\Thread.h">
+      <Filter>zeroconf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\VERSION.h">
       <Filter>zeroconf</Filter>
     </ClInclude>
   </ItemGroup>
